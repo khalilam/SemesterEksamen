@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: #f0f0f0;
+    background-color: #0c0c0c;
 }
 
 nav{
@@ -121,10 +121,15 @@ h1{
     align-items: center;
     min-height: 40vh;
     font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #d2d2d7;
 }
 
 p{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px;
+    color: #d2d2d7;
 }
