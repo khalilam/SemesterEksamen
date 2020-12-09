@@ -17,7 +17,7 @@ nav{
     background-color: #0c0c0c;
     width: 100%;
     position: fixed;
-    opacity: 95%;
+    opacity: 90%;
 }
 
 .logo{
@@ -115,3 +115,16 @@ nav{
     transform: rotate(45deg) translate(-5px,-6px);
 }
 
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+    font-size: 40px;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
