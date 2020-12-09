@@ -174,3 +174,34 @@ h2{
     text-align: center;
     margin-top: 35px;
 }
+
+form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+
+.form-control{
+    width: 90%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: #0c0c0c;
+    font-size: 18px;
+    margin-bottom: 16px;
+    align-items: center;
+}
+
+input{
+    height: 45px;
+}
+
+form .submit{
+    border-color: transparent;
+    color: #0c0c0c;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
