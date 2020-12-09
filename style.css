@@ -120,10 +120,12 @@ h1{
     justify-content: center;
     align-items: center;
     min-height: 40vh;
-    font-size: 40px;
+    font-size: 6vw;
     text-transform: uppercase;
     letter-spacing: 5px;
     color: #d2d2d7;
+    font-weight: initial;
+    text-decoration: underline;
 }
 
 p{
@@ -132,4 +134,22 @@ p{
     align-items: center;
     padding: 10px;
     color: #d2d2d7;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.frontpageimg{
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+}
+
+.imgcenter{
+    color: #d2d2d7;
+    justify-content: center;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
 }
