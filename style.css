@@ -7,6 +7,12 @@
 
 body{
     background-color: #d2d2d7;
+    background-image: url('paperplane.jpg');
+    background-repeat: no-repeat;
+    min-height: 500px;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 nav{
@@ -138,13 +144,6 @@ p{
     font-size: 15px;
 }
 
-.frontpageimg{
-    width: 100%;
-    height: auto;
-    margin-top: 80px;
-    margin-bottom: -5px;
-}
-
 .imgcenter{
     color: #d2d2d7;
     justify-content: center;
@@ -153,12 +152,6 @@ p{
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 18px;
-}
-
-.frontpageimg2{
-    width: 100%;
-    height: auto;
-    margin-bottom: -10px;
 }
 
 .flyimg{
