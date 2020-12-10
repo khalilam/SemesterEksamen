@@ -5,6 +5,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body{
+    background-color: #d2d2d7;
+}
+
 .baggrund{
     background-image: url('paperplane.jpg');
     background-repeat: no-repeat;
@@ -209,14 +213,26 @@ form .submit{
 }
 
 .electrabil{
-    width: 80%;
+    width: 100%;
     height: auto;
     margin-top: 35px;
     align-items: center;
 }
 
 .electraside{
-    width: 80%;
+    width: 100%;
+    height: auto;
+    margin-top: 35px;
+}
+
+.spacegym{
+    width: 100%;
+    height: auto;
+    margin-top: 35px;
+}
+
+.breakdance{
+    width: 100%;
     height: auto;
     margin-top: 35px;
 }
