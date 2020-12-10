@@ -5,12 +5,11 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
-    background-color: #d2d2d7;
+.baggrund{
     background-image: url('paperplane.jpg');
     background-repeat: no-repeat;
     min-height: 500px;
-    background-position: center;
+    background-position: absolute;
     background-attachment: fixed;
     background-size: cover;
 }
@@ -125,7 +124,7 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 40vh;
+    min-height: 25vh;
     font-size: 6vw;
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -144,28 +143,27 @@ p{
     font-size: 15px;
 }
 
-.imgcenter{
-    color: #d2d2d7;
-    justify-content: center;
-    position: absolute;
-    top: 75%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 18px;
+h2{
+    text-align: center;
+    margin-top: 35px;
 }
 
-.flyimg{
+h3{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.about{
+
+}
+
+.khali-img{
     width: 90%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
-    border-radius: 10px;
-}
-
-h2{
-    text-align: center;
-    margin-top: 35px;
+    height: auto;
+    border-radius: 50%;
 }
 
 form{
