@@ -236,3 +236,12 @@ form .submit{
     height: auto;
     margin-top: 35px;
 }
+
+footer{
+    background-color: #0c0c0c; 
+    margin-top: 45px;
+}
+
+.footertext{
+    color: #f4f5f9;
+}
